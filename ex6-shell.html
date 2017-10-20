@@ -1,0 +1,25 @@
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+<link rel="import" href="red-msg.html">
+<dom-module id="ex6-shell">
+	<template>
+		<style>
+			:host {
+				display: block;
+				width: 100vw;
+				height: 100vh;
+			}
+		</style>
+		<red-msg msg="Hello, do i look like a message?"></red-msg>
+	</template>
+	<script>
+		class Ex6Shell extends Polymer.Element {
+			static get is() {
+				return 'ex6-shell';
+			}
+			static get properties() {
+				return { };
+			}
+		}
+		customElements.define(Ex6Shell.is,Ex6Shell);
+	</script>
+</dom-module>

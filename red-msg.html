@@ -1,0 +1,47 @@
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+
+<dom-module id="red-msg">
+	<template>
+		<style>
+			:host {
+				display: block;
+				background-color: #00cccc;
+				border-radius: 5px;
+				padding: 10px;
+				color: #fff;
+				margin-bottom: 10px;
+				width: 80%;
+			}
+		</style>
+		<div id="here"></div>
+	</template>
+	<script>
+		class RedMsg extends Polymer.Element {
+			static get is() {
+				return 'red-msg';
+			}
+			static get properties() {
+				return {
+					msg: {
+						type: String,
+						observer: '_convput'
+					}
+				};
+			}
+			escapeHtml(unsafe) {
+			    return unsafe
+			         .replace(/&/g, "&amp;")
+			         .replace(/</g, "&lt;")
+			         .replace(/>/g, "&gt;")
+			         .replace(/"/g, "&quot;")
+			         .replace(/'/g, "&#039;");
+			}
+
+			_convput() {
+				this.$.here.innerHTML = this.escapeHtml(this.msg).replace(/\n/g,"<br />").replace(/\t/g,"&nbsp;&nbsp;&nbsp;");
+			}
+		}
+		
+		customElements.define(RedMsg.is, RedMsg);
+	</script>
+</dom-module>
