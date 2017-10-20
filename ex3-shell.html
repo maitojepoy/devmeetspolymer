@@ -1,0 +1,32 @@
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+<link rel="import" href="name-card.html">
+<dom-module id="ex3-shell">
+	<template>
+		<style>
+			:host {
+				display: block;
+				width: 100vw;
+				height: 100vh;
+			}
+		</style>
+	</template>
+	<script>
+	class Ex3Shell extends Polymer.Element {
+		static get is() {
+			return 'ex3-shell';
+		}
+		static get properties() {
+			return {
+				names: {
+					type: Array,
+					value: () => {
+						return ["Doc", "Grumpy", "Happy", "Sleepy", "Bashful", "Sneezy", "Dopey"];
+					}
+				}
+			};
+		}
+	}
+
+	customElements.define(Ex3Shell.is, Ex3Shell);
+	</script>
+</dom-module>
