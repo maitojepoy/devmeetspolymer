@@ -1,46 +1,101 @@
 [
   {
     "name": "Stafford Briggs",
-    "photo": "/data/men/1.jpg"
+    "photo": "/data/men/1.jpg",
+    "address": {
+      "lat": "-14.26668", 
+      "long": "129.71723"
+    },
+    "desc": "It's easy to get to know an open person like Stafford Briggs, but the biggest two things to know are that he's persuasive and curious. Of course he's also aspiring, forthright and generous, but they're far less prominent, especially compared to impulses of being disconcerting as well. His persuasive nature though, this is what he's so well-liked for. People often count on this and his openness whenever they need cheering up. Nobody's perfect of course and Stafford has plenty of less favorable traits too. His carelessness and monstrous nature cause plenty of grievances and beyond what people are willing to deal with. Fortunately his curiosity helps keep them in check for at least a little."
   },
   {
-    "name": "Velazquez Lewis",
-    "photo": "/data/women/1.jpg"
+    "name": "Abigail Duncan",
+    "photo": "/data/women/1.jpg",
+    "address": {
+      "lat": "55.91074", 
+      "long": "-124.82734"
+    },
+    "desc": "It takes a while to get to know Abigail Duncan, but at the very least she's loyal and organized. Of course she's also understanding, persuasive and punctual, but those are often overshadowed by tendencies of being envious as well. Her loyalty though, this is what she's most popular for. Friends tend to count on this and her active nature when they're feeling down. Nobody's perfect of course and Abigail has a fair share of lesser days too. Her treachery and instability cause plenty of grievances, much to the annoyance of others. Fortunately her organization skills is usually there to help mends things when needed."
   },
   {
     "name": "Jaime Perkins",
-    "photo": "/data/men/2.jpg"
+    "photo": "/data/men/2.jpg",
+    "address": {
+      "lat": "36.72639", 
+      "long": "-88.30537"
+    },
+    "desc": "A lot can be assumed when you first see Jaime Perkins, but at the very least he's organized and elegant. Of course he's also sensitive, trusting and gentle, but these are in a way balance by being predatory as well. His organization skills though, this is what he's often adored for. People often count on this and his dedication in times of need."
   },
   {
     "name": "Ashley Hahn",
-    "photo": "/data/women/2.jpg"
+    "photo": "/data/women/2.jpg",
+    "address": {
+      "lat": "48.44323", 
+      "long": "85.53549"
+    },
+    "desc": "Many things can be said of Ashley Hahn, but the two traits most people enjoy the most are that she's companionably and surprising. Of course she's also cooperative, incisive and faithful, but in a way they're lesser traits and tained by behaviors of being frightening as well. Her companionship though, this is what she's kind of cherished for. Oftentimes people will count on this and her humbleness especially when they need comforting or support."
   },
   {
     "name": "Robert Rosales",
-    "photo": "/data/men/3.jpg"
+    "photo": "/data/men/3.jpg",
+    "address": {
+      "lat": "41.18474", 
+      "long": "40.05886"
+    },
+    "desc": "A lot can be assumed when you first see Robert Rosales, but if nothing else you should know he's cheerful and humble. Of course he's also dynamic, farsighted and heroic, but those are often overshadowed by tendencies of being shallow as well. His cheerfulness though, this is what he's kind of cherished for. Friends usually count on this and his incisive nature in times of need."
   },
   {
     "name": "Vicky Goodman",
-    "photo": "/data/women/3.jpg"
+    "photo": "/data/women/3.jpg",
+    "address": {
+      "lat": "-14.73984", 
+      "long": "40.05211"
+    },
+    "desc": "Many things can be said of Vicky Goodman, but if nothing else you should know she's orderly and objective. Of course she's also sensitive, organized and decisive, but in smaller doses and they're often spoiled by habits of being lazy as well. Her sense of order though, this is what she's often adored for. Friends frequently count on this and her patience in times of need. Fortunately her objectivity is usually there to help mends things when needed."
   },
   {
     "name": "Kayla Robbins",
-    "photo": "/data/women/4.jpg"
+    "photo": "/data/women/4.jpg",
+    "address": {
+      "lat": "-17.13672", 
+      "long": "45.99540"
+    },
+    "desc": "It's easy to get to know an open person like Kayla, but if nothing else you should know she's considerate and honest. Of course she's also incisive, innovative and dynamic, but these are in a way balance by being apathetic as well. Her considerate nature though, this is what she's most popular for. Friends frequently count on this and her considerate nature especially when they need comforting or support."
   },
   {
     "name": "Albert Odonnell",
-    "photo": "/data/men/4.jpg"
+    "photo": "/data/men/4.jpg",
+    "address": {
+      "lat": "24.62302", 
+      "long": "-2.61188"
+    },
+    "desc": "Looks can be deceiving when it comes Albert Odonnell, but if there's anything you should know it's that he's reliable and perceptive. Of course he's also surprising, loyal and considerate, but far less strongly and often mixed with being irresponsible as well. His reliability though, this is what he's most well-liked for. Oftentimes people will count on this and his imagination whenever they need assistance or help."
   },
   {
-    "name": "Barrett Mcclain",
-    "photo": "/data/men/5.jpg"
+    "name": "Jayden Burton",
+    "photo": "/data/men/5.jpg",
+    "address": {
+      "lat": "-12.01115", 
+      "long": "-59.60194"
+    },
+    "desc": "Few know the true Jayden Burton, but the two traits most people enjoy the most are that he's relaxed and romantic. Of course he's also aspiring, generous and decisive, but those are often overshadowed by tendencies of being insulting as well. His relaxed nature though, this is what he's most popular for. On many occasions people will count on this and his wit when they're in need of support."
   },
   {
     "name": "Beverly Norman",
-    "photo": "/data/women/5.jpg"
+    "photo": "/data/women/5.jpg",
+    "address": {
+      "lat": "-14.26668", 
+      "long": "129.71723"
+    },
+    "desc": "Few know the true Beverly Norman, but the two traits most people enjoy the most are that she's heroic and clear-headed. Of course she's also forthright, stable and organized, but those are often overshadowed by tendencies of being hateful as well. Her heroic nature though, this is what she's pretty much known for. On many occasions people will count on this and her punctuality when they're feeling down. Nobody's perfect of course and Beverly has plenty of less favorable traits too. Her crassness and grim ways sour the mood many a time and just affect all around negatively."
   },
   {
     "name": "Marion Henderson",
-    "photo": "/data/women/6.jpg"
+    "photo": "/data/women/6.jpg",
+    "address": {
+      "lat": "41.18474", 
+      "long": "40.05886"
+    },
+    "desc": "It's hard to describe a complex person like Marion Henderson, but perhaps most important is that she's independent and patient. Of course she's also clear-headed, companionably and compassionate, but those are often overshadowed by tendencies of being demanding as well. Her independence though, this is what she's pretty much loved for. People regularly count on this and her individualism when they're in need of support."
   }
 ]
