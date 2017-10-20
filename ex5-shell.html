@@ -1,0 +1,24 @@
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+<dom-module id="ex5-shell">
+	<template>
+		<style>
+			:host {
+				display: block;
+				width: 100vw;
+				height: 100vh;
+			}
+		</style>
+		
+	</template>
+	<script>
+		class Ex5Shell extends Polymer.Element {
+			static get is() {
+				return 'ex5-shell';
+			}
+			static get properties() {
+				return { };
+			}
+		}
+		customElements.define(Ex5Shell.is,Ex5Shell);
+	</script>
+</dom-module>

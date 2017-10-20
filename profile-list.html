@@ -1,0 +1,44 @@
+<link rel="import" href="bower_components/polymer/polymer-element.html">
+<link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="bower_components/paper-card/paper-card.html">
+<link rel="import" href="bower_components/polymer/lib/elements/dom-repeat.html">
+<dom-module id="profile-list">
+	<template>
+		<style>
+			:host {
+				display: block;
+			}
+			:host paper-card {
+				cursor: pointer;
+				--paper-card: {
+					background-color: #222;
+					color: #fff;
+				};
+			}
+		</style>
+		<iron-ajax
+		 	auto
+		 	url="/data/data.json"
+		 	handle-as="json"
+		 	last-response="{{names}}"></iron-ajax>
+			<template is="dom-repeat" items="{{names}}">
+				<paper-card image="{{item.photo}}" elevation="1">
+				<div class="card-content">{{item.name}}</div>
+				</paper-card>
+			</template>
+		</div>
+	</template>
+	<script>
+		class ProfileList extends Polymer.Element {
+			static get is() {
+				return 'profile-list';
+			}
+			static get properties() {
+				return {
+					names: Array
+				};
+			}
+		}
+		customElements.define(ProfileList.is,ProfileList);
+	</script>
+</dom-module>
